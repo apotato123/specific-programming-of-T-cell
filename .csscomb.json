@@ -21,18 +21,20 @@
   "strip-spaces": true,
   "vendor-prefix-align": true,
   "sort-order": [
-    [ "$variable" ],
-    [ "$include" ],
+    [
+      "$variable"
+    ],
+    [
+      "$include"
+    ],
     [
       "content",
-
       "position",
       "z-index",
       "top",
       "right",
       "bottom",
       "left",
-
       "-webkit-box-sizing",
       "-moz-box-sizing",
       "box-sizing",
@@ -61,7 +63,6 @@
       "-ms-overflow-y",
       "clip",
       "zoom",
-
       "width",
       "min-width",
       "max-width",
@@ -78,7 +79,6 @@
       "padding-right",
       "padding-bottom",
       "padding-left",
-
       "table-layout",
       "empty-cells",
       "caption-side",
@@ -88,7 +88,6 @@
       "list-style-position",
       "list-style-type",
       "list-style-image",
-
       "quotes",
       "counter-reset",
       "counter-increment",
@@ -103,7 +102,6 @@
       "nav-right",
       "nav-down",
       "nav-left",
-
       "font",
       "font-family",
       "font-size",
@@ -118,7 +116,6 @@
       "font-emphasize-style",
       "font-smooth",
       "line-height",
-
       "text-align",
       "-webkit-text-align-last",
       "-moz-text-align-last",
@@ -156,7 +153,6 @@
       "hyphens",
       "pointer-events",
       "text-shadow",
-
       "color",
       "background",
       "background-color",
@@ -251,7 +247,6 @@
       "box-shadow",
       "filter:progid:DXImageTransform.Microsoft.gradient",
       "-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient",
-
       "-webkit-transition",
       "-moz-transition",
       "-ms-transition",
