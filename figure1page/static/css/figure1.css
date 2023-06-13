@@ -278,7 +278,7 @@ a:hover {
 
 .page-header__nav-link_selected {
     color: #fff;
-    background-color: #9b242d;
+    background-color: #09abd7;
     text-decoration: none;
     cursor: default
 }
@@ -325,7 +325,7 @@ a:hover {
     width: 270px;
     height: 56px;
     margin: 45px auto 0;
-    color: #46a651;
+    color: #09abd7;
     font-size: 26px;
     font-weight: 700;
     line-height: 56px;
@@ -894,4 +894,11 @@ a:hover {
         text-align: center;
         clear: both
     }
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
