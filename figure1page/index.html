@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="static/css/screen.min.css">
     <link rel="stylesheet" href="static/css/figure1.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -41,7 +42,7 @@
         orgWidth="404" orgHeight="470" usemap="#main-figure-1" alt="">
     </center>
 
-    <map name="main-figure-1" id="ImageMapsCom-main-figure-1">
+    <!-- <map name="main-figure-1" id="ImageMapsCom-main-figure-1">
         <area alt="" title="Naive Bubble Plot" href="https://apotato123.github.io/specific-programming-of-T-cell-states-og/figure1TFs/_Naive_P005_F05_L34_single.pdf" shape="rect"
             coords="16,180,92,256" style="outline:none;" target="_self">
         <area alt="" title="MP Bubble Plot" href="https://apotato123.github.io/specific-programming-of-T-cell-states-og/figure1TFs/_MP_P005_F05_L59_single.pdf" shape="rect"
@@ -62,7 +63,32 @@
             coords="250,340,320,411" style="outline:none;" target="_self">
         <area shape="rect" coords="402,468,404,470" alt="Image Map" style="outline:none;" title="Image Map"
             href="https://www.image-maps.com/" />
-    </map>
+    </map> -->
+
+    <div id="leftSide">
+        Left Side
+        <br>
+        <a href="#" class="imgLink" id="cat" imgsrc="https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80">cat</a>
+      </div>
+      
+      <div id="rightSide">
+        <img id="displayImg" data-toggle="modal" data-target="#imageModal" class="cursor-pointer" />
+      </div>
+      
+      <div class="modal fade" id="imageModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+              <img id="bigImg" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
     
 
     <footer class="page-footer">
