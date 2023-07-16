@@ -84,7 +84,7 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-/*     -webkit-box-sizing: border-box; */
+    -webkit-box-sizing: border-box;
     box-sizing: border-box
 }
 
@@ -946,10 +946,10 @@ a:hover {
    cursor: pointer;
  }
 
- .pic1button{
+/*  .pic1button{
     margin: 0;
     padding: 0;
     border: 0;
-/*     -webkit-box-sizing: border-box; */
-    /* box-sizing: border-box */
- }
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box
+ } */
